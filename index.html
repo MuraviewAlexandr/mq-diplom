@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+    <div class="container">
+      <div class="header-top-block">
+        <a href="#0" class="logo">
+          <img src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg" class="menu-logo" alt="NOEMI">
+        </a>
+        <nav class="menu">
+          <button class="menu-burger">
+						<span class="menu-burger-label">открыть меню</span>
+					</button>
+          <ul class="menu-list">
+            <li class="menu-list-item">
+              <a class="menu-link" href="#home">главная</a>
+            </li>
+            <li class="menu-list-item">
+              <a class="menu-link" href="#0">посты</a>
+            </li>
+            <li class="menu-list-item">
+              <a class="menu-link" href="#0">статьи</a>
+            </li>
+            <li class="menu-list-item">
+              <a class="menu-link" href="#0">теги</a>
+            </li>
+            <li class="menu-list-item">
+              <a class="menu-link" href="#0">темы</a>
+            </li>
+            <li class="menu-list-item">
+              <a class="menu-link" href="#0">контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <a href="#0" class="logo-mobile">
+				<img class="logo-img" src="svg/noemi-logo.svg" alt="Логотип блога Noemi">
+			</a>
+    </div>
+    <h1 class="header-title">
+    блог о творчестве, спорте, и образе жизни.
+    </h1>
+  </header>
+  <main class="page">  
+    <div class="pop-up visually-hidden">
+    <div class="pop-up-container">
+      <div class="feedback">
+        <h2 class="section-title">Ваш фидбек</h2>
+        <form action="" class="feedback-form">
+          <div class="form-row">
+            <label for="question-select-id" class="form-label">
+              Как часто вы заходите на сайт?
+            </label>
+            <select for="question-select-id" class="question-select">
+              <option selected value="">Почти каждый день</option>
+              <option value="">Почти каждую неделю</option>
+              <option value="">Почти каждый месяц</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <span class="form-hint">Вы подписаны на e-mail рассылку?</span>
+            <label class="radio-group">
+              <input type="radio" class="radio" name="radio-group">
+              <span class="radio-group-text">Да</span>
+            </label>
+            <label class="radio-group">
+              <input type="radio" class="radio" name="radio-group">
+              <span class="radio-group-text">Нет</span>
+            </label>
+          </div>
+          <div class="form-row">
+            <label for="" class="form-label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?
+              <textarea name="" id="" cols="30" rows="10" class="form-textarea">Может, больше рецептов?</textarea>
+            </label>
+          </div>
+          <button class="send-button" type="button">Отправить</button>
+        </form>
+      </div>
+      <button class="popup-close" type="button"><img src="svg/form-x.svg" alt="Закрыть окно" class="popup-close-img"></button>
+    </div>
+    </div>
+  <section class="trends">
+    <h2 class="trends-section-title">
+      Сейчас в тренде
+    </h2>
+    <div class="trends-block">
+      <div class="trends-block-item trends-block-item-garden">
+        <div class="trends-item">
+          <ul class="category">
+            <li class="category-part"><a href="#0">Lifestyle</a></li>
+            <li class="category-part"><a href="#0">Interior</a></li>
+          </ul>
+          <h2 class="trends-title">
+            <a href="#0" class="trends-title-link">Сейчас в тренде: сад на подоконнике</a>
+          </h2>
+        </div>
+      </div>
+      <div class="trends-block-item trends-block-item-cheese">
+        <div class="trends-item">
+          <ul class="category">
+            <li class="category-part"><a href="#0">Food</a></li>
+          </ul>
+          <h2 class="trends-title">
+            <a href="#0" class="trends-title-link">Сыры на красивых картинках из интернета: какие они на вкус?</a>
+          </h2>
+        </div>
+      </div>
+      <div class="trends-block-item trends-block-item-trip">
+        <div class="trends-item">
+          <ul class="category">
+            <li class="category-part"><a href="#0">Lifestyle</a></li>
+            <li class="category-part"><a href="#0">Travel</a></li>
+          </ul>
+          <h2 class="trends-title">
+            <a href="#0" class="trends-title-link">Собираемся в первый поход в горы</a>
+          </h2>
+        </div>
+      </div>
+      <div class="trends-block-item trends-block-item-lemon">
+        <div class="trends-item">
+          <ul class="category">
+            <li class="category-part"><a href="#0">Food</a></li>
+            <li class="category-part"><a href="#0">Health</a></li>
+          </ul>
+          <h2 class="trends-title">
+            <a href="#0" class="trends-title-link">Сейчас в тренде: скольно витамина в лимонах?</a>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container main-aside">
+     <section class="post-list">
+      <artical class="post">
+        <div class="post-img-container">
+          <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg" class="post-img" alt="рассвет у моря"> 
+        </div>
+        <div class="post-content">
+          <ul class="category">
+            <li class="category-part"><a href="#0">
+            Travel</a>
+            </li>
+            <li class="category-part"><a href="#0">
+            Health</a>
+            </li>
+          </ul>
+          <h3 class="post-header"><a class="post-header-link" href="#0">
+          10 мест, ради которых стоит проснуться на рассвете</a>
+          </h3>
+          <div class="data-author">
+            <time datetime="2019-06-10" class="post-data">
+            10 июня 2019
+            </time>
+            <address class="post-author">
+            неизвестный автор
+            </address>
+          </div>
+          <div class="post-text">
+            <p>Итак Вы в Питере. Ранее утро. Лед с рек и каналов уже ушел, запущены фонтаны города... Музеи еще закрыты. Что посмотреть?
+            </p>
+          </div>
+        </div>
+      </artical>
+      <artical class="post">
+        <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg" class="post-img" alt="йога у моря"> 
+        <div class="post-content">
+          <ul class="category">
+            <li class="category-part"><a href="#0">
+            Health</a>
+            </li>
+            <li class="category-part"><a href="#0">
+            lifestyle</a>
+            </li>
+          </ul>
+          <h3 class="post-header"><a class="post-header-link" href="#0">
+          Йога для начиниающих в домашних условиях</a>
+          </h3>
+          <div class="data-author">
+            <time datetime="2019-06-10" class="post-data">
+            10 июня 2019
+            </time>
+            <address class="post-author">
+            неизвестный автор
+           </address>
+          </div>
+          <div class="post-text">
+            <p>Расскажем, какие упражнения выбрать и как сделать коврик для занятия йогой из того, что можно найти в шкафу.
+            </p>
+          </div>
+        </div>
+      </artical>
+      <artical class="post">
+        <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post3.jpg
+" class="post-img" alt="музыкальный концерт"> 
+        <div class="post-content">
+          <ul class="category">
+            <li class="category-part"><a href="#0">
+            Music</a>
+            </li>
+          </ul>
+          <h3 class="post-header"><a class="post-header-link" href="#0">
+          Лучшие музыкальные фестивали этого лета</a>
+          </h3>
+          <div class="data-author">
+            <time datetime="2019-06-10" class="post-data">
+            10 июня 2019
+            </time>
+            <address class="post-author">
+            неизвестный автор
+            </address>
+          </div>
+          <div class="post-text">
+            <p>На носу лето, а с ним и музыкальные фестивали. На каком же из них вы разобьете падатку?</p><p>Мы составили лучьших летних фестивалей по всему миру.
+            </p>
+          </div>
+        </div>
+      </artical>
+      <artical class="post">
+        <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg" class="post-img" alt="еда на столе"> 
+        <div class="post-content">
+          <ul class="category">
+            <li class="category-part"><a href="#0">
+            Lifestyle</a>
+            </li>
+            <li class="category-part"><a href="#0">
+            Food</a>
+            </li>
+          </ul>
+          <h3 class="post-header"><a class="post-header-link" href="#0">
+          Наукоемкий подход к кулинарии</a>
+          </h3>
+          <div class="data-author">
+            <time datetime="2019-06-10" class="post-data">
+            10 июня 2019
+            </time>
+            <address class="post-author">
+            неизвестный автор
+            </address>
+          </div>
+          <div class="post-text">
+            <p>Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем химию и микробиологию еды.
+            </p>
+          </div>
+        </div>
+      </artical>
+      <artical class="post">
+        <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post5.jpg
+" class="post-img" alt="подушка с принтом"> 
+        <div class="post-content">
+          <ul class="category">
+            <li class="category-part"><a href="#0">
+            Lifestyle</a>
+            </li>
+            <li class="category-part"><a href="#0">
+            Interior</a>
+            </li>
+            <li class="category-part"><a href="#0">
+            Art</a>
+            </li>
+          </ul>
+          <h3 class="post-header"><a class="post-header-link" href="#0">
+          Делаем модные принты на подушках для интерьера.</a>
+          </h3>
+          <div class="data-author">
+            <time datetime="2019-06-10" class="post-data">
+            10 июня 2019
+            </time>
+            <address class="post-author">
+            неизвестный автор
+            </address>
+          </div>
+          <div class="post-text">
+            <p>Подушки для дивана целесооразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.
+            </p>
+          </div>
+        </div>
+      </artical>
+      <artical class="post">
+        <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post6.jpg
+" class="post-img" alt="путешествие в горах"> 
+        <div class="post-content">
+          <ul class="category">
+            <li class="category-part"><a href="#0">
+            Travel</a>
+            </li>
+            <li class="category-part"><a href="#0">
+            lifestyle</a>
+            </li>
+          </ul>
+          <h3 class="post-header"><a class="post-header-link" href="#0">
+          Как в первый раз отправиться в горы?</a>
+          </h3>
+          <div class="data-author">
+            <time datetime="2019-06-10" class="post-data">
+            10 июня 2019
+            </time>
+            <address class="post-author">
+            неизвестный автор
+            </address>
+          </div>
+          <div class="post-text">
+            <p>Для начала нужно определиться в каком формате пройдет ваше путешествие. Это зависит от многих факторов, не только от ваших желаний и интересов.
+            </p>
+          </div>
+        </div>
+      </artical>
+      <artical class="post">
+        <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg" class="post-img" alt="еда на столе"> 
+        <div class="post-content">
+          <ul class="category">
+            <li class="category-part"><a href="#0">
+            Lifestyle</a>
+            </li>
+            <li class="category-part"><a href="#0">
+            Food</a>
+            </li>
+          </ul>
+          <h3 class="post-header"><a class="post-header-link" href="#0">
+          Наукоемкий подход к кулинарии</a>
+          </h3>
+          <div class="data-author">
+            <time datetime="2019-06-10" class="post-data">
+            10 июня 2019
+            </time>
+            <address class="post-author">
+            неизвестный автор
+            </address>
+          </div>
+          <div class="post-text">
+            <p>Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем химию и микробиологию еды.
+            </p>
+          </div>
+        </div>
+      </artical>
+    </section>
+    <aside class="sidebar">
+      <section class="posts-list">
+        <h2 class="section-title">
+      новые посты
+        </h2>
+        <article class="side-post">
+          <div class="side-post-img">
+            <img src="https://netology-code.github.io/html-2-diploma/sources/images/2.jpg
+" alt="10 мест, ради которых стоит проснуться" class="sidebar-img">
+          </div>
+          <div class="side-post-content">
+            <time datetime="2019-06-14" class="side-post-data">
+          14 июня 2019
+            </time>
+            <h3 class="side-post-header">
+              <a href="#0">10 мест, ради которых стоит проснуться</a>
+            </h3>
+          </div>
+        </article>
+        <article class="side-post">
+          <div class="side-post-img">
+            <img src="https://netology-code.github.io/html-2-diploma/sources/images/151.jpg
+" alt="йога для начинающих в домашних условиях" class="sidebar-img">
+          </div>
+          <div class="side-post-content">
+            <time datetime="2019-06-14" class="side-post-data">
+          14 июня 2019
+            </time>
+            <h3 class="side-post-header">
+            <a href="#0">йога для домашних</a>
+            </h3>
+          </div>
+        </article>
+        <article class="side-post">
+          <div class="side-post-img">
+            <img src="https://netology-code.github.io/html-2-diploma/sources/images/45.jpg
+" alt="балкон" class="sidebar-img">
+          </div>
+          <div class="side-post-content">
+            <time datetime="2019-06-14" class="side-post-data">
+          14 июня 2019
+            </time>
+            <h3 class="side-post-header">
+              <a href="#0">как мы превратили классное место в балкон</a>
+            </h3>
+          </div>
+        </article>
+        <article class="side-post">
+          <div class="side-post-img">
+            <img src="https://netology-code.github.io/html-2-diploma/sources/images/501.jpg
+" alt="кулинарный подход к науке" class="sidebar-img">
+          </div>
+          <div class="side-post-content">
+            <time datetime="2019-06-14" class="side-post-data">
+          14 июня 2019
+            </time>
+            <h3 class="side-post-header">
+              <a href="#0">кулинарный подход к науке</a>
+            </h3>
+          </div>
+        </article>
+        <article class="side-post">
+          <div class="side-post-img">
+            <img src="https://netology-code.github.io/html-2-diploma/sources/images/7.jpg
+" alt="лучшие прически для распущеных волос" class="sidebar-img">
+          </div>
+          <div class="side-post-content">
+            <time datetime="2019-06-14" class="side-post-data">
+          14 июня 2019
+            </time>
+            <h3 class="side-post-header">
+              <a href="#0">лучшие прически для распущеных волос</a>
+            </h3>
+          </div>
+        </article>
+        <form class="posts-form" action="">
+          <label class="form-search">
+            <span class="posts-search-hidden">
+          Поиск контента по сайту.
+            </span>
+            <input class="posts-form-search" type="text" placeholder="Найти..." requierd>
+          </label>
+          <button class="posts-form-btn" type="search">
+            <span class="posts-search-hidden">
+        поиск
+            </span>
+          </button>
+        </form>
+      </section>
+      <section class="other">
+        <h2 class="section-title">
+      рассылка
+        </h2>
+        <form class="newsletter-form" action="">
+          <label class="subscrtiption">
+            <span class="subscription-hidden">
+          Форма для подписки на новые материалы сайта.
+            </span>
+            <input class="newsletter-input" type="email" placeholder="Ваш email-адрес" required>
+          </label>
+          <button class="newsletter-btn" type="submit">
+        Подписаться
+          </button>
+        </form>
+      </section>
+      <section class="other">
+        <h2 class="section-title">Теги</h2>
+        <ul class="section-tegs">
+          <li><a class="section-tegs-btn" href="#0">Fashion</a></li>
+          <li><a class="section-tegs-btn" href="#0">Music</a></li>
+          <li><a class="section-tegs-btn" href="#0">Lifestyle</a></li>
+          <li><a class="section-tegs-btn" href="#0">Art</a></li>
+          <li><a class="section-tegs-btn" href="#0">Interior</a></li>
+          <li><a class="section-tegs-btn" href="#0">Travel</a></li>
+          <li><a class="section-tegs-btn" href="#0">Food</a></li>
+          <li><a class="section-tegs-btn" href="#0">Health</a></li>
+        </ul>
+      </section>
+      <section class="other">
+        <h2 class="section-title">
+      темы
+        </h2>
+        <ul>
+          <li class="them-item">
+            <span class="them-item-meaning"><a href="#0">красота</a>
+            <span class="them-item-span">12</span>
+            </span>
+          </li>
+          <li class="them-item">
+            <span class="them-item-meaning"><a href="#0">здоровье</a>
+            <span class="them-item-span">4</span>
+            </span>
+          </li>
+          <li class="them-item">
+            <span class="them-item-meaning"><a href="#0">образ жизни</a>
+            <span class="them-item-span">145</span>
+            </span>
+          </li>
+          <li class="them-item">
+            <span class="them-item-meaning"><a href="#0">музыка</a>
+            <span class="them-item-span">28</span>
+            </span>
+          </li>
+          <li class="them-item">
+            <span class="them-item-meaning"><a href="#0">спорт</a>
+            <span class="them-item-span">62</span>
+            </span>
+          </li>
+          <li class="them-item">
+            <span class="them-item-meaning"><a href="#0">йога</a>
+            <span class="them-item-span">8</span>
+            </span>
+          </li>
+        </ul>
+      </section>
+    </aside>
+  </div>
+  <section class="products">
+    <h2 class="section-title">Наши изделия</h2>
+    <div class="products-list">
+      <div class="product-block">
+        <div class="product-img-block">
+          <picture>
+            <source srcset="images/shop-item-desk1.jpg" media="(min-width: 1200px)">
+            <source srcset="images/shop-item-tablet1.jpg" media="(min-width: 641px) and (max-width: 1199px)">
+            <source srcset="images/shop-item-mobile1.jpg" media="(max-width: 640px)">
+            <img class="product-img" src="images/shop-item-desk1.jpg"
+              alt="Белая подушка с рисунком на наволочке">
+          </picture>
+        </div>
+        <div class="product-text">
+          <h2 class="section-title section-title-product">Подушки на диван</h2>
+          <div class="product-text-block">
+            <p class="product-info">Набор из двух подушек с модными принтами. Видео о создании <a
+                class="product-info-link" href="#0">здесь</a>.</p>
+          </div>
+          <div class="product-price">
+            <div class="price-block">
+              <p class="price price-out">1000 ₽</p>
+              <p class="price">800 ₽</p>
+            </div>
+            <a href="#0" class="btn-link">В магазин</a>
+          </div>
+        </div>
+      </div>
+      <div class="product-block">
+        <div class="product-img-block">
+          <picture>
+            <source srcset="images/shop-item-desk2.jpg" media="(min-width: 1200px)">
+            <source srcset="images/shop-item-tablet2.jpg" media="(min-width: 641px) and (max-width: 1199px)">
+            <source srcset="images/shop-item-mobile2.jpg" media="(max-width: 640px)">
+            <img class="product-img" src="images/shop-item-desk2.jpg"
+              alt="Белая подушка с рисунком на наволочке">
+          </picture>
+        </div>
+        <div class="product-text">
+          <h2 class="section-title section-title-product">Кукла «Зайчик»</h2>
+          <div class="product-text-block">
+            <p class="product-info"> Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a
+                href="#0" class="product-info-link">весенняя серия постов</a> в блоге и
+              несколько
+              подкастов.</p>
+          </div>
+          <div class="product-price">
+            <div class="price-block">
+              <p class="price">3500 ₽</p>
+            </div>
+            <a href="#0" class="btn-link">В магазин</a>
+          </div>
+        </div>
+      </div>
+      <div class="product-block">
+        <div class="product-img-block">
+          <picture>
+            <source srcset="images/shop-item-desk3.jpg" media="(min-width: 1200px)">
+            <source srcset="images/shop-item-tablet3.jpg" media="(min-width: 641px) and (max-width: 1199px)">
+            <source srcset="images/shop-item-mobile3.jpg" media="(max-width: 640px)">
+            <img class="product-img" src="images/shop-item-desk3.jpg"
+              alt="Белая подушка с рисунком на наволочке">
+          </picture>
+        </div>
+        <div class="product-text">
+          <h2 class="section-title section-title-product">Шестиугольная рамка</h2>
+          <div class="product-text-block">
+            <p class="product-info">Необычная рамка для украшения дома из видео <a href="#0"
+                class="product-info-link">«Как сделать рамку из подручных
+                средств за 30 минут»</a></p>
+          </div>
+          <div class="product-price">
+            <div class="price-block">
+              <p class="price price-out">500 ₽</p>
+              <p class="price">400 ₽</p>
+            </div>
+            <a href="#0" class="btn-link">В магазин</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+  <footer class="footer">
+  <div class="reference">
+    <ul class="social">
+      <li class="social-item">
+        <a href="#0" class="socials-link  social-link-dribbble">
+          <span class="socials-link-text">dribbble</span></a>
+      </li>
+      <li class="social-item">
+        <a href="#0" class="socials-link  social-link-pinterest">
+          <span class="socials-link-text">pinterest</span></a>
+      </li>
+      <li class="social-item">
+        <a href="#0" class="socials-link  social-link-tumblr">
+          <span class="socials-link-text">tumblr</span></a>
+      </li>
+    </ul>
+  </div>
+  <div class="copirite">
+      <p class="copirite-text">Copyritght&copy; 2009-2019 City Blog LLC.</p>
+    </div>
+  </footer>
+</body>
+</html>
